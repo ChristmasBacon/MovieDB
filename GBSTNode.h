@@ -1,8 +1,3 @@
-// Day started: Dec/3/2023
-// Genre Binary Search Tree Node header file
-// Eric Roquel Correa
-// S01468715
-
 #include <iostream>
 using namespace std;
 
