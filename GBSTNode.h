@@ -30,11 +30,11 @@ GBSTNode<T>::GBSTNode()
 
 // Constructor with parameters
 template <class T>
-GBSTNode<T>::GBSTNode(GBSTNode<T> *l, T i, GBSTNode<T> *r)
+GBSTNode<T>::GBSTNode(GBSTNode<T> *left, T info, GBSTNode<T> *right)
 {
-	info = i;
-	left = l;
-	right = r;
+	this.info = info;
+	this.left = left;
+	this.right = right;
 }
 
 // Get information stored in the node
